@@ -3,7 +3,7 @@ from tkinter import ttk
 from tkinter import messagebox
 import sqlite3 as sql
 
-# adding task to list and database
+
 def add_task():
     task_string=task_field.get()
     if(len(task_string)==0):
